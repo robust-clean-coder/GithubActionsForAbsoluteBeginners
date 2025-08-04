@@ -6,5 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Greet 
-        run: echo "Hello from GitHub Actions!"
+        run:  echo "Hello from GitHub Actions!" echo "Current branch: $GITHUB_REF"
+
     
