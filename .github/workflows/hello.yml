@@ -3,7 +3,7 @@ name: Hello Workflow
 on: push
 jobs: 
   say-hello
-    runs-on: ubuntu-test
+    runs-on: ubuntu-latest
     steps:
       - name: Greet 
         run: echo "Hello from GitHub Actions!"
