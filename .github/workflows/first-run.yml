@@ -1,0 +1,12 @@
+name: Hello Automation
+
+on: 
+  push:
+    branches: [main]
+
+jobs:
+  greet_user:
+    runs-on: ubuntu-latest
+    -steps: 
+      -name: Show Greeting
+       run: echo "Success! Your workflow is alive and well"
